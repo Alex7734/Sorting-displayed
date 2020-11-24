@@ -2,7 +2,7 @@ import random
 import time
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from algorithms import swap, bubblesort, merge, mergesort, insertionsort, selectionsort, quicksort
+from algorithms import swap, bubblesort, merge, mergesort, insertionsort, selectionsort, quicksort, heap_sort
 
 def Sort(size, method):
     N = size
@@ -27,6 +27,9 @@ def Sort(size, method):
     elif method == "Selection Sort":
         title = "Selection sort"
         generator = selectionsort(A)
+    elif method == "Heap Sort":
+        title = "Heap sort"
+        generator = heap_sort(A)
 
     fig, ax = plt.subplots()
     ax.set_title(title)

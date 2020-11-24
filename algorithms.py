@@ -1,3 +1,6 @@
+from heapq import heappop, heappush
+import time
+
 def swap(v, i, j):
     if i != j:
         v[i], v[j] = v[j], v[i]
@@ -21,6 +24,23 @@ def insertionsort(v):
             swap(v, j, j - 1)
             j -= 1
             yield v
+
+def heap_sort(v):
+    heap = []
+    for x in v:
+        heappush(heap, x)
+        yield heap
+        time.sleep(0.03)
+
+    ordered = []
+
+    # While we have elements left in the heap
+    while heap:
+        ordered.append(heappop(heap))
+        yield ordered
+        time.sleep(0.05)
+
+    yield ordered
 
 def mergesort(v, start, end):
     if end <= start:
