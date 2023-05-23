@@ -1,6 +1,6 @@
 # Sorting Visualization
 
-Foobar is a Python library for dealing with word pluralization.
+Sorting Visualization is a tool that allows you to visualize various sorting algorithms in action.
 
 ## Installation
 
