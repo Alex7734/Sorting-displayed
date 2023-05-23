@@ -5,10 +5,14 @@ Foobar is a Python library for dealing with word pluralization.
 ## Installation
 
 ```bash
-git clone https://github.com/Alex7734/Sorting-displayed
-cd sorting-visualization
+git clone https://github.com/Alex7734/Sorting-displayed sorting
+
+cd sorting
+
 python -m venv env
+
 env/scripts/activate
+
 pip install -r requirements.txt
 ```
 
