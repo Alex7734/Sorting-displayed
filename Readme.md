@@ -21,14 +21,14 @@ python main.py
 ## Available Sorting Algorithms
 
 The following sorting algorithms are available for visualization:
-*Bubble Sort
-*Insertion Sort
-*Merge Sort
-*Quicksort
-*Selection Sort
-*Heap Sor
+-Bubble Sort
+-Insertion Sort
+-Merge Sort
+-Quicksort
+-Selection Sort
+-Heap Sor
 
-##Customization
+## Customization
 
 You can customize the project according to your needs:
 
