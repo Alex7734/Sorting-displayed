@@ -19,6 +19,7 @@ python main.py
 ```
 
 ## Available Sorting Algorithms
+
 The following sorting algorithms are available for visualization:
 *Bubble Sort
 *Insertion Sort
@@ -28,6 +29,7 @@ The following sorting algorithms are available for visualization:
 *Heap Sor
 
 ##Customization
+
 You can customize the project according to your needs:
 
 *Modify the sorting algorithms: The sorting algorithms are defined in the **algorithms.py** file. You can update or add new sorting algorithms as needed.
